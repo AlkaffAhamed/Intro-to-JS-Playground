@@ -21,11 +21,12 @@ form.addEventListener('submit', (ev) => {
     onSuccess: (res) => {
       console.log('signup email success');
       console.log(res);
+      showNotification()
     },
     onError: () => {
       console.log('signup email error');
     }
   });
 
-  showNotification();
+  //showNotification();
 });

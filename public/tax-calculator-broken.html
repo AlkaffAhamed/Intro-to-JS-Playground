@@ -272,9 +272,11 @@
     <script src="javascripts/helpers.js"></script>
     <script src="javascripts/footer.js"></script>
     <script src="javascripts/calculator.js"></script>
-    <script>
+    <!-- Comment out this script and it works -->
+    <!-- IIFE can also be used to make this calculator page work -->
+    <!-- <script>
       var calculateTax = 5;
-    </script>
+    </script> -->
     <script>
       const calculateBtn = document.querySelector('#calculateBtn');
       calculateBtn.addEventListener('click', calculateTax);
